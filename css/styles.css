@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+form, label {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Courier, sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: rgb(18, 14, 8);
+	background-color: rgb(13, 7, 0);
+}
+
+label {
+    margin: 10px;
+}
+
+input, textarea {
+    border-radius: 8px;
+    background-color: rgb(235, 224, 203);
+}
+
+h1, h3 {
+    color: rgb(154, 102, 50);
+}
+
+h3.main {
+    margin: 20px 60px;
+}
+
+h3.contacts {
+    margin: 10px 30px;
+}
+
+/*TODO: The colours don't work anymore*/
+a {
+    color: rgb(137, 84, 3);
+}
+
+a:hover {
+    color: rgb(92, 56, 1);
+}
+
+a:visited {
+    color: rgb(201, 107, 3);
+}
+
+ul>li>ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+div.container {
+    background-color: rgb(214, 193, 163);
+    border-radius: 15px;
+    margin: 20px;
+    padding: 50px;
+}
+
+hr.dots {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #8a7a60;
+    border-width: 5px;
+    width: 5%;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+div.input {
+    min-width: 70%;
+    margin: 10px;
+}
+
+.input-label {
+    display: inline-block;
+    min-width: 15%;
+}
+
+div.starting-info {
+    display: flex;
+}
+
+div.image {
+    padding: 15px;
+    width: 80%;
+}
+
+div.info-me {
+    padding: 30px;
+    margin: 10px;
+    width: 80%;
+}
+
+img.main {
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgb(100, 71, 47);
+    width: 100%;
+}
+
+.name-header {
+
+}
+
+table.portfolio {
+    border-collapse: collapse;
+    border: 2px solid grey;
+}
+
+table.portfolio>thead>tr.table-headers {
+    text-align: left;
+}
+
+div.starting-info>div.image>img.main, div.starting-info>div.info-me: {
+    float: left;
+    width:50px;
+    margin: 10px;
+}
+
+.table-headers>th, .table-body>td {
+    border-collapse: collapse;
+    border: 2px solid grey;
+    padding: 5px;
+    padding-right: 30px;
+}
